@@ -6,6 +6,9 @@
 #
 $(call inherit-product, device/oneplus/sm8150-common/common.mk)
 
+# Installs gsi keys into ramdisk, to boot a developer GSI with verified boot.
+$(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
+
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/oneplus/hotdog/hotdog-vendor.mk)
 
