@@ -27,4 +27,7 @@
     <!-- Max visible notification icons -->
     <integer name="config_maxVisibleNotificationIcons">6</integer>
     <integer name="config_maxVisibleNotificationIconsWhenDark">7</integer>
+
+    <!-- Whether to send camera status intent -->
+    <bool name="config_sendCameraStatusIntent">true</bool>
 </resources>
