@@ -11,11 +11,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from hotdog device
 $(call inherit-product, device/oneplus/hotdog/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/xtended/config/common_full_phone.mk)
+# Inherit some common DerpFest stuff.
+$(call inherit-product, vendor/derp/config/common_full_phone.mk)
+
+TARGET_USES_BLUR := true
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := xtended_hotdog
+PRODUCT_NAME := derp_hotdog
 PRODUCT_DEVICE := hotdog
 PRODUCT_BRAND := OnePlus
 PRODUCT_MODEL := OnePlus 7T Pro
