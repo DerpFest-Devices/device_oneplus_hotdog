@@ -15,5 +15,5 @@
      limitations under the License.
 -->
 <resources>
-    <integer name="cam_open_delay_ms">500</integer>
+    <integer name="cam_open_delay_ms">350</integer>
 </resources>
