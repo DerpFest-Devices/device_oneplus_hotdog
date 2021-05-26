@@ -30,4 +30,7 @@
 
     <!-- Whether to send camera status intent -->
     <bool name="config_sendCameraStatusIntent">true</bool>
+
+    <!-- Default fod pressed color -->
+    <integer name="config_fod_pressed_color">2</integer>
 </resources>
