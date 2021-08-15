@@ -30,4 +30,6 @@
     <!-- Whether to invert the sim slots for VoLTE/VoWiFi icon -->
     <bool name="config_invertImsSlots">true</bool>
 
+    <!-- Max visible system icons -->
+    <integer name="config_maxVisibleStatusIconContainer">9</integer>
 </resources>
