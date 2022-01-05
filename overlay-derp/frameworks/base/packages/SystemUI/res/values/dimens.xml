@@ -17,6 +17,9 @@
 -->
 <resources>
 
+    <!-- Udfps animation -->
+    <dimen name="udfps_animation_offset">35dp</dimen>
+
     <!-- The margin between the status view and the notifications on Keyguard.-->
     <dimen name="keyguard_indication_margin_bottom_fingerprint_in_display">10dp</dimen>
 
